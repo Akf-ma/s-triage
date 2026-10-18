@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+
+# Uploads
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+
+# Third-party reference documents (copyrighted; keep local, do not commit publicly)
+docs/reference/
+
+# Local evaluation artifacts
+backend/test/evaluation/*.out.json
+
+# Local duplicate clone (kept out of the repo; not part of the project layout)
+S-triage/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# Documentation & Assets
+docs/
+mockup/
